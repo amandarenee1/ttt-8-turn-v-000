@@ -40,7 +40,4 @@ def turn(board)
   input_to_index = gets.strip
   if !valid_move?(board, index)
     turn
-  end
-  move(board, position, char="X")
-  display_board(board)
 end
