@@ -14,6 +14,7 @@ def input_to_index(user_input)
   return index
 end
 
+#checks the number to see if 1) the position is already taken and 2) it is an actual number
 def valid_move?(board, index)
   if position_taken?(board, index) || index < 0 || index > 8
     return false
