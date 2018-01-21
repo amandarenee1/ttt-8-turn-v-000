@@ -11,7 +11,7 @@ end
 #converts user's place on board to index integer
 def input_to_index(user_input)
   index = user_input.to_i-1
-  index -= 1
+  index = -1
   return index
 end
 
