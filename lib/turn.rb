@@ -35,5 +35,6 @@ def move(board, position, char="X")
 end
 
 def turn(board)
+  display_board
   puts "Please enter 1-9:"
 end
