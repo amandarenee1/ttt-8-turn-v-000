@@ -30,10 +30,6 @@ def position_taken?(board, position)
   end
 end
 
-def turn(board)
-  puts "Please enter 1-9:"
-end
-
 def move(board, position, char="X")
   board[position] = char
 end
